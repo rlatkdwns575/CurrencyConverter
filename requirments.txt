@@ -1,8 +1,18 @@
-math
-pickle
-numpy
-pandas
-streamlit
-matplotlib
-torch
-scikit-learn
+# Core data handling
+numpy>=1.24
+pandas>=2.0
+
+# Visualization / app
+matplotlib>=3.7
+streamlit>=1.36
+
+# Machine learning
+scikit-learn>=1.3
+optuna>=3.6
+
+# Deep learning
+torch>=2.1
+
+# Data collection
+requests>=2.31
+yfinance>=0.2.40
